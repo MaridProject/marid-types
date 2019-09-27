@@ -4,7 +4,7 @@
 
   <groupId>org.marid</groupId>
   <artifactId>marid-types</artifactId>
-  <version>1.0.3-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>marid-types</name>
@@ -529,8 +529,8 @@
                 </goals>
                 <configuration>
                   <rules>
-                    <reactorModuleConvergence />
-                    <dependencyConvergence />
+                    <reactorModuleConvergence/>
+                    <dependencyConvergence/>
                     <requireMavenVersion>
                       <version>[3.6,)</version>
                     </requireMavenVersion>
