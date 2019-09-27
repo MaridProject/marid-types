@@ -34,6 +34,30 @@
     </developer>
   </developers>
 
+  <scm>
+    <connection>scm:git:https://github.com/MaridProject/marid-types.git</connection>
+    <developerConnection>scm:git:https://github.com/MaridProject/marid-types.git</developerConnection>
+    <url>http://sf.net/p/marid/code</url>
+    <tag>HEAD</tag>
+  </scm>
+  <issueManagement>
+    <system>Tickets</system>
+    <url>http://sourceforge.net/p/marid/tickets</url>
+  </issueManagement>
+  <distributionManagement>
+    <site>
+      <id>marid-web</id>
+      <name>web</name>
+      <url>sftp://frs.sf.net/home/project-web/marid/htdocs</url>
+    </site>
+
+    <repository>
+      <id>${repo-id}</id>
+      <name>${repo-name}</name>
+      <url>${repo-url}</url>
+    </repository>
+  </distributionManagement>
+
   <properties>
     <project.encoding>UTF-8</project.encoding>
     <project.build.sourceEncoding>${project.encoding}</project.build.sourceEncoding>
